@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--JS-->
+    <script src="app.js" async></script>
+    <link rel="stylesheet" href="estilos.css">
+    <title>Tienda de Libros</title>
+</head>
+<body>
+    <header>
+        <h1>Tienda de Libros Disney</h1>
+    </header>
+    <section class="contenedor">
+    <!--Contenedor de elementos-->
+    <div class="contenedor-items">
+        <!--Libros-->
+        <div class="item">
+            <span class="titulo-item">365 Cuentos de Buenas Noches</span>
+            <img src="imagenes/365 cuentos de buenas noches.jpg" alt="" class="img-item">
+            <span class="precio-item">$629.00</span>
+            <button class="buton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+            <span class="titulo-item">365 Cuentos de Acción y Aventuras</span>
+            <img src="imagenes/accion y aventuras.jpg" alt="" class="img-item">
+            <span class="precio-item">$294.00</span>
+            <button class="buton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+            <span class="titulo-item">365 cuentos. Una historia para cada día vol. 3</span>
+            <img src="imagenes/una historia.jpg" alt="" class="img-item">
+            <span class="precio-item">$464.00</span>
+            <button class="buton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+            <span class="titulo-item">365 cuentos clásicos</span>
+            <img src="imagenes/cuentos clasicos.jpg" alt="" class="img-item">
+            <span class="precio-item">$435.00</span>
+            <button class="buton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+            <span class="titulo-item">365 cuentos de hadas y princesas</span>
+            <img src="imagenes/hadas y princesas.jpg" alt="" class="img-item">+
+            <span class="precio-item">$435.00</span>
+            <button class="buton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+            <span class="titulo-item">365 Bedtime Stories</span>
+            <img src="imagenes/365 Bedtime Stories.jpg" alt="" class="img-item">
+            <span class="precio-item">$499.00</span>
+            <button class="buton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+            <span class="titulo-item">365 cuentos. Una historia para cada día. Vol.2</span>
+            <img src="imagenes/Una historia para cada día. Vol.2.jpg" alt="" class="img-item">
+            <span class="precio-item">$657.00</span>
+            <button class="buton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+            <span class="titulo-item">365 cuentos de princesas</span>
+            <img src="imagenes/365 cuentos de princesas.jpg" alt="" class="img-item">
+            <span class="precio-item">$632.00</span>
+            <button class="buton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+            <span class="titulo-item">Disney. 365 cuentos y actividades</span>
+            <img src="imagenes/Disney. 365 cuentos y actividades.jpg" alt="" class="img-item">
+            <span class="precio-item">$632.00</span>
+            <button class="buton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+            <span class="titulo-item">Disney. 365 juegos y actividades </span>
+            <img src="imagenes/Disney. 365 juegos y actividades 2.jpg" alt="" class="img-item">
+            <span class="precio-item">$632.00</span>
+            <button class="buton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+            <span class="titulo-item">Libro infantil Tesoro de Cuentos: Colección de Cuentos Disney  </span>
+            <img src="imagenes/Libro infantil Tesoro de Cuentos Colección de Cuentos Disney.jpg" alt="" class="img-item">
+            <span class="precio-item">$300.00</span>
+            <button class="buton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+            <span class="titulo-item">Libro infantil Tesoro de cuentos: Aventuras para soñar Disney  </span>
+            <img src="imagenes/cc.jpg" alt="" class="img-item">
+            <span class="precio-item">$300.00</span>
+            <button class="buton-item">Agregar al Carrito</button>
+        </div>
+    </div>
+    <!--Empieza carrito de compras-->
+    <div class="carrito">
+        <div class="header-carrito">
+            <h2>Tu Carrito</h2>
+        </div>
+        <div class="carrito-items">
+            <!--
+            <div class="carrito-item">
+                <img src="imagenes/365 cuentos de buenas noches.jpg" alt="" width="80px">
+                <div class="carrito-item-detalles">
+                    <span class="carrito-item-titulo">365 Cuentos de Buenas Noches</span>
+                    <div class="selector-cantidad">
+                        <i class="fa-solid fa-minus restar-cantidad"></i>
+                        <input type="text" value="1" class="carrito-item-cantidad" disabled>
+                        <i class="fa-solid fa-plus sumar-cantidad"></i>
+                    </div>
+                    <span class="carrito-item-precio">$629.00</span>
+                </div>
+                <span class="btn-eliminar">
+                    <i class="fa-solid fa-trash"></i>
+                </span>
+            </div>
+            <div class="carrito-item">
+                <img src="imagenes/accion y aventuras.jpg" alt="" width="80px">
+                <div class="carrito-item-detalles">
+                    <span class="carrito-item-titulo">365 Cuentos de Acción y Aventuras</span>
+                    <div class="selector-cantidad">
+                        <i class="fa-solid fa-minus restar-cantidad"></i>
+                        <input type="text" value="2" class="carrito-item-cantidad" disabled>
+                        <i class="fa-solid fa-plus sumar-cantidad"></i>
+                    </div>
+                    <span class="carrito-item-precio">$294.00</span>
+                </div>
+                <button class="btn-eliminar">
+                    <i class="fa-solid fa-trash"></i>
+                </button>
+            </div>
+        </div>
+    -->
+        <div class="carrito-total">
+            <div class="fila">
+                <strong>Tu Total</strong>
+                <span class="carrito-precio-total">
+                    $923.00
+                </span>
+            </div>
+            <button class="btn-pagar">Pagar<i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+    </div>
+</section>
+</body>
+</html>
